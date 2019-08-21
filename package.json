@@ -1,0 +1,60 @@
+{
+  "name": "ngx-textarea-auto-height",
+  "version": "0.0.1",
+  "description": "angular textarea auto height plugin",
+  "scripts": {
+    "build": "ng-packagr -p package.json",
+    "publish": "npm publish dist",
+    "clean": "rimraf dist",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "public_api.ts"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/zw277856645/ngx-textarea-auto-height"
+  },
+  "keywords": [
+    "angular",
+    "textarea",
+    "autosize",
+    "auto height"
+  ],
+  "author": "wei.zhang",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/core": "^8.1.2",
+    "zone.js": "^0.9.1",
+    "rxjs": "^6.5.1"
+  },
+  "devDependencies": {
+    "@angular/common": "8.1.2",
+    "@angular/core": "8.1.2",
+    "@angular/platform-browser": "8.1.2",
+    "@angular/platform-browser-dynamic": "8.1.2",
+    "@angular/compiler-cli": "8.1.2",
+    "@angular/compiler": "8.1.2",
+    "@types/jasmine": "2.5.36",
+    "@types/node": "10.14.5",
+    "zone.js": "0.9.1",
+    "rxjs": "6.5.1",
+    "angular-router-loader": "0.8.5",
+    "angular2-template-loader": "0.6.2",
+    "ts-loader": "5.4.4",
+    "jasmine-core": "3.3.0",
+    "ng-packagr": "5.1.0",
+    "ajv": "6.9.1",
+    "rimraf": "2.6.1",
+    "rxjs-tslint": "0.1.7",
+    "tslint": "5.11.0",
+    "codelyzer": "5.1.0",
+    "typescript": "3.4.5",
+    "webpack": "4.19.1",
+    "webpack-cli": "3.1.0",
+    "webpack-dev-server": "3.1.4"
+  }
+}
