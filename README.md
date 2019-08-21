@@ -29,7 +29,11 @@ export class AppModule {
 
 #### 1. @Input() 属性
 - maxHeight
+最大高度(px)，超出限制后不再增加高度，而是显示滚动条
+
 - minHeight
+最小高度(px)，低于限制后不再减少高度
 
 #### 2. @Output() 属性
 - sizeChange
+高度变化事件，参数为当前 textarea 高度
