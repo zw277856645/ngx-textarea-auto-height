@@ -1,14 +1,15 @@
 import {
     AfterViewInit, Directive, ElementRef, EventEmitter, HostBinding, HostListener, Input, Output
 } from '@angular/core';
+import { InputNumber } from 'cmjs-lib';
 
 @Directive({
     selector: 'textarea[autoHeight]'
 })
 export class TextareaAutoHeightDirective implements AfterViewInit {
 
-    @Input() maxHeight: number;
-    @Input() minHeight: number;
+    @Input() @InputNumber() maxHeight: number;
+    @Input() @InputNumber() minHeight: number;
 
     @Output() sizeChange = new EventEmitter();
 
