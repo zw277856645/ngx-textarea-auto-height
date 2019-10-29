@@ -1,7 +1,7 @@
 import {
     AfterViewInit, Directive, ElementRef, EventEmitter, HostBinding, HostListener, Input, Output
 } from '@angular/core';
-import { InputNumber } from 'cmjs-lib';
+import { InputNumber } from '@demacia/cmjs-lib';
 
 @Directive({
     selector: 'textarea[autoHeight]'

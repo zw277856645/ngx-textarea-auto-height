@@ -1,10 +1,10 @@
 {
-  "name": "ngx-textarea-auto-height",
-  "version": "0.0.2",
+  "name": "@demacia/ngx-textarea-auto-height",
+  "version": "0.0.1",
   "description": "angular textarea auto height plugin",
   "scripts": {
     "build": "ng-packagr -p package.json",
-    "publish": "npm publish dist",
+    "publish": "npm publish dist --access public",
     "clean": "rimraf dist",
     "lint": "tslint -c tslint.json -p tsconfig.json"
   },
@@ -14,7 +14,7 @@
       "entryFile": "public_api.ts"
     },
     "whitelistedNonPeerDependencies": [
-      "cmjs-lib"
+      "@demacia/cmjs-lib"
     ]
   },
   "repository": {
@@ -35,7 +35,7 @@
     "rxjs": "^6.5.1"
   },
   "dependencies": {
-    "cmjs-lib": "0.4.4"
+    "@demacia/cmjs-lib": "0.0.1"
   },
   "devDependencies": {
     "@angular/common": "8.1.2",

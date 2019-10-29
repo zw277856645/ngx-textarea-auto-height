@@ -2,13 +2,13 @@
 
 ## 📦 安装
 
-> npm install ngx-textarea-auto-height --save
+> npm install @demacia/ngx-textarea-auto-height --save
 
 ## 🔨 使用
 引入module
 
 ``` js
-import { TextareaAutoHeightModule } from 'ngx-list-filter';
+import { TextareaAutoHeightModule } from '@demacia/ngx-textarea-auto-height';
 
 @NgModule({
     imports: [
