@@ -4,6 +4,9 @@
 
 > npm install @demacia/ngx-textarea-auto-height --save
 
+## 🔗 链接
+- [DOCS](https://zw277856645.gitlab.io/ngx-textarea-auto-height/)
+
 ## 🔨 使用
 
 ###### 引入module
