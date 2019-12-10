@@ -46,7 +46,7 @@
     "@angular/core": "8.1.2",
     "@angular/platform-browser": "8.1.2",
     "@angular/platform-browser-dynamic": "8.1.2",
-    "@compodoc/compodoc": "^1.1.11",
+    "@compodoc/compodoc": "1.1.11",
     "@types/jasmine": "2.5.36",
     "@types/node": "10.14.5",
     "ajv": "6.9.1",
