@@ -3,7 +3,6 @@
   "tsconfig": "tsconfig.json",
   "output": "docs",
   "name": "ngx-textarea-auto-height documentation",
-  "language": "zh-CN",
   "hideGenerator": true,
   "disablePrivate": true,
   "disableLifeCycleHooks": true,

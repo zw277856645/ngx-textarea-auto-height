@@ -7,8 +7,8 @@
     "publish": "npm publish dist --access public",
     "clean": "rimraf dist && rimraf docs",
     "lint": "tslint -c tslint.json -p tsconfig.json",
-    "docs:build": "compodoc src -c compodoc.json",
-    "docs:watch": "npm run docs:build -- -w -s -o --port=7000"
+    "docs:build": "compodoc src -c compodoc.json --language=zh-CN",
+    "docs:watch": "npm run docs:build -- -w -s -o"
   },
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "ngPackage": {
