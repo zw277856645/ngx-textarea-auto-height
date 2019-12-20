@@ -1,14 +1,12 @@
 {
   "name": "@demacia/ngx-textarea-auto-height",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "angular textarea auto height plugin",
   "scripts": {
     "build": "ng-packagr -p package.json",
     "publish": "npm publish dist --access public",
-    "clean": "rimraf dist && rimraf docs",
-    "lint": "tslint -c tslint.json -p tsconfig.json",
-    "docs:build": "compodoc src -c compodoc.json --language=zh-CN",
-    "docs:watch": "npm run docs:build -- -w -s -o"
+    "clean": "rimraf dist",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
   },
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "ngPackage": {
@@ -46,14 +44,11 @@
     "@angular/core": "8.1.2",
     "@angular/platform-browser": "8.1.2",
     "@angular/platform-browser-dynamic": "8.1.2",
-    "@compodoc/compodoc": "1.1.11",
-    "@types/jasmine": "2.5.36",
     "@types/node": "10.14.5",
     "ajv": "6.9.1",
     "angular-router-loader": "0.8.5",
     "angular2-template-loader": "0.6.2",
     "codelyzer": "5.1.0",
-    "jasmine-core": "3.3.0",
     "ng-packagr": "5.1.0",
     "rimraf": "2.6.1",
     "rxjs": "6.5.1",
